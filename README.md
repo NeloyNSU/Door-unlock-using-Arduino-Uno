@@ -40,5 +40,9 @@ Connect the signal pin of the relay to pin 10 on the Arduino and the lock's VCC 
 
 
 
+![screenshot 195](https://user-images.githubusercontent.com/18008644/37867445-ff09980a-2fc2-11e8-8059-49d974500f1f.png)
+
+# Arduino Keypad Lock Code
+The initial password is 1234 (see the door.ino file for details code)
 
 
