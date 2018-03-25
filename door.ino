@@ -23,9 +23,7 @@ byte column_pins[columns] = {A4,A5,3,2};
 Keypad keypad_key = Keypad( makeKeymap(hexaKeys), row_pins, column_pins, rows, columns);
 
 void setup()
-
 {
-
   pinMode(relay_pin, OUTPUT);
   liquid_crystal_display.begin(16,2);
   liquid_crystal_display.print(" DIYhacking.com");
@@ -136,21 +134,17 @@ void change()
         liquid_crystal_display.print(key);
         EEPROM.write(j,key);
         j++;
-
       }
-
     }
 
     liquid_crystal_display.print("Pass Changed");
     delay(1000);
-
   }
 
   liquid_crystal_display.clear();
   liquid_crystal_display.print("Enter Password");
   liquid_crystal_display.setCursor(0,1);
   key_pressed=0;
-
 }
 
 void initialpassword(){
@@ -158,7 +152,6 @@ void initialpassword(){
     EEPROM.write(j, j+49);
   for(int j=0;j<4;j++)
     initial_password[j]=EEPROM.read(j);
-
 }
 
 
