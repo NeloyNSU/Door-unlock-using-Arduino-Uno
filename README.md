@@ -1,7 +1,7 @@
-# Door-unlock-using-Arduino-Uno
+## Door-unlock-using-Arduino-Uno
 A simple project to unlock the door using 4*4 keypad and Arduino. User will input the password,if it matches the door will be unlocked. Otherwise it will not unlock
 
-# How Does the Keyless Door Lock System Work?
+## How Does the Keyless Door Lock System Work?
 
 Whenever the keys are pressed, they are matched with the keys already stored. If the keys that are pressed match the initial password stored in the EEPROM which is ‘1234’, then the lock will open up. If the password does not match, then it will print “access denied” on the LCD. 
 If the ‘#’ key will be pressed, it will ask you to enter the current password and if it matches, then it will ask you to enter the new password and the password will be changed.
@@ -9,7 +9,7 @@ If the ‘#’ key will be pressed, it will ask you to enter the current passwor
 ![screenshot 196](https://user-images.githubusercontent.com/18008644/37867447-04df40cc-2fc3-11e8-892c-aaacab2c760b.png)
 
 
-# Components:
+## Components:
 1.	Arduino	Uno	
 2.	4x4 keypad		
 3.	16*2 LCD		
@@ -19,7 +19,7 @@ If the ‘#’ key will be pressed, it will ask you to enter the current passwor
 7.  10k potentiometer		
 8.	220-ohm resistor
 
-# Circuit Diagram
+## Circuit Diagram
 First, connect the 4X4 keypad to the Arduino; connect the first six pins on the 4X4 keypad with the A0 and A5 pins on the Arduino. Then connect the last two pins on the 4X4 keypad module to digital pins 3 and 2 on the Arduino.
 
 After that, connect the LCD to the Arduino. The connections for connecting the LCD with the Arduino are as follows:
@@ -42,7 +42,7 @@ Connect the signal pin of the relay to pin 10 on the Arduino and the lock's VCC 
 
 ![screenshot 195](https://user-images.githubusercontent.com/18008644/37867445-ff09980a-2fc2-11e8-8059-49d974500f1f.png)
 
-# Arduino Keypad Lock Code
-The initial password is 1234 (see the door.ino file for details code)
+## Arduino Keypad Lock Code
+The initial password is 1234. for code, [see here](https://github.com/NeloyNSU/Door-unlock-using-Arduino-Uno/blob/master/door.ino)
 
 
