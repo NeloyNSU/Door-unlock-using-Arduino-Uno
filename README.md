@@ -26,7 +26,8 @@ After that, connect the LCD to the Arduino. The connections for connecting the L
 ```
 1. Connect pin 1 on the LCD, which is the VSS pin, to GND on the Arduino
 2. Connect pin 2, which is the VDD pin, to the 5V pin on the Arduino
-3. Connect pin 3, which is the V0, to the middle of the 10k potentiometer and connect the other two pins on the potentiometer to 5V and GND on the Arduino. This pin is for setting the LCD's contrast.
+3. Connect pin 3, which is the V0, to the middle of the 10k potentiometer and connect the other two pins on 
+the potentiometer to 5V and GND on the Arduino. This pin is for setting the LCD's contrast.
 4. Connect pin 4, which is the RS pin, to pin 7 on the Arduino
 5. Connect pin 5, which is the R/W pin, to the GND pin on the Arduino
 6. Connect pin 6, which is the Enable pin, to pin 6 on the Arduino
